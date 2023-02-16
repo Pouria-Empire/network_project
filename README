@@ -1,5 +1,5 @@
 # linux send udp request
-echo -n "hello" | nc -4u -w0 localhost 8081
+echo -n "say: some data..., to: 5555" | nc -4u -w0 127.0.0.1 8081
 
 # linux udp listen on specific port
 netcat -ul 8081
